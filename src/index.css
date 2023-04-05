@@ -1,0 +1,17 @@
+body {
+  margin: 0px;
+  display: flex;
+  place-items: center;
+  max-width: 100vw;
+  min-width: 320px;
+  min-height: 100vh;
+  background: red;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+
+}

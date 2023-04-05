@@ -1,0 +1,37 @@
+.container{
+    height: 60px;
+    width: 100%;
+    /* background-color: #151e2b; */
+    display: flex;
+
+
+}
+.nav{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.nav-left{
+    /* background:yellow; */
+    height: 100% ;
+    width: 400px ;
+}
+.nav-left span,  .nav-left img{
+    height: 100%;
+    width: 200px;
+    /* background-color: red; */
+}
+.nav-right{
+    height: 100%;
+    width: 20%;
+    /* background: red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font: 20px;
+    color: white;
+}
+.nav-item{
+    color: white;
+}
